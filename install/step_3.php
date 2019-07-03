@@ -1,0 +1,9 @@
+<?php
+unlink('step_1.php');
+unlink('step_2.php');
+unlink('step_3.php');
+unlink('install.css');
+unlink('index.html');
+unlink('../install_glix.php');
+rmdir('../install');
+?>
